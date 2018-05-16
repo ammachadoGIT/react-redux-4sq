@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #378eda;
+  height: 80px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.panel-venue {      
+  background-color: #EFEFEF;
+  height: 350px;
+  overflow: hidden;
+}
+
+.panel-venue .panel-body {      
+  height: 150px;
+}
+
+.panel-filter {
+  margin-bottom: 10px;
+}

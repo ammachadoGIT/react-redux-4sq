@@ -1,0 +1,1731 @@
+{
+    "meta": {
+        "code": 200,
+        "requestId": "5afb0eed4c1f6744c3b6e6a7"
+    },
+    "notifications": [
+        {
+            "type": "notificationTray",
+            "item": {
+                "unreadCount": 0
+            }
+        }
+    ],
+    "response": {
+        "suggestedFilters": {
+            "header": "Tap to show:",
+            "filters": [
+                {
+                    "name": "Open now",
+                    "key": "openNow"
+                }
+            ]
+        },
+        "suggestedRadius": 2836,
+        "headerLocation": "Toronto",
+        "headerFullLocation": "Toronto",
+        "headerLocationGranularity": "city",
+        "totalResults": 138,
+        "suggestedBounds": {
+            "ne": {
+                "lat": 43.700107923641355,
+                "lng": -79.44893052987786
+            },
+            "sw": {
+                "lat": 43.667860968830226,
+                "lng": -79.49153710188853
+            }
+        },
+        "groups": [
+            {
+                "type": "Recommended Places",
+                "name": "recommended",
+                "items": [
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4bc5e80cb387d13a14eac0e8",
+                            "name": "Nova Era Bakery",
+                            "location": {
+                                "address": "529 Rogers Rd.",
+                                "crossStreet": "at Old Weston Rd.",
+                                "lat": 43.68192433660699,
+                                "lng": -79.46762043733504,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.68192433660699,
+                                        "lng": -79.46762043733504
+                                    }
+                                ],
+                                "distance": 391,
+                                "postalCode": "M6M 1B1",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "529 Rogers Rd. (at Old Weston Rd.)",
+                                    "Toronto ON M6M 1B1"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d16a941735",
+                                    "name": "Bakery",
+                                    "pluralName": "Bakeries",
+                                    "shortName": "Bakery",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-4bc5e80cb387d13a14eac0e8-0"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4bc218402a89ef3b4f35f388",
+                            "name": "Martins Churrasqueira & Grill House",
+                            "location": {
+                                "address": "605 Rogers Road",
+                                "lat": 43.68096387210818,
+                                "lng": -79.47316376802233,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.68096387210818,
+                                        "lng": -79.47316376802233
+                                    }
+                                ],
+                                "distance": 409,
+                                "cc": "CA",
+                                "city": "Toronto Division",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "605 Rogers Road",
+                                    "Toronto Division ON"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d1df931735",
+                                    "name": "BBQ Joint",
+                                    "pluralName": "BBQ Joints",
+                                    "shortName": "BBQ",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bbqalt_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-4bc218402a89ef3b4f35f388-1"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4d978154744f37044945d757",
+                            "name": "Seara Bakery and Pastry",
+                            "location": {
+                                "address": "605 Rogers Rd.",
+                                "crossStreet": "at Keele St.",
+                                "lat": 43.680842302990285,
+                                "lng": -79.47289230880898,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.680842302990285,
+                                        "lng": -79.47289230880898
+                                    }
+                                ],
+                                "distance": 413,
+                                "postalCode": "M6M 1B9",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "605 Rogers Rd. (at Keele St.)",
+                                    "Toronto ON M6M 1B9"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d16d941735",
+                                    "name": "Café",
+                                    "pluralName": "Cafés",
+                                    "shortName": "Café",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-4d978154744f37044945d757-2"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4e5ce4affa76a4cf148b49f2",
+                            "name": "FreshCo",
+                            "location": {
+                                "address": "2330 Eglinton Ave. W",
+                                "crossStreet": "Gabian Way",
+                                "lat": 43.69254441330608,
+                                "lng": -79.46622786951993,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.69254441330608,
+                                        "lng": -79.46622786951993
+                                    }
+                                ],
+                                "distance": 995,
+                                "postalCode": "M6M 1S6",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "2330 Eglinton Ave. W (Gabian Way)",
+                                    "Toronto ON M6M 1S6"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d118951735",
+                                    "name": "Grocery Store",
+                                    "pluralName": "Grocery Stores",
+                                    "shortName": "Grocery Store",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-4e5ce4affa76a4cf148b49f2-3"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "5498c343498ed095cce0e874",
+                            "name": "Five Guys",
+                            "location": {
+                                "address": "70 Weston Rd",
+                                "lat": 43.67399936300619,
+                                "lng": -79.46958934743358,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.67399936300619,
+                                        "lng": -79.46958934743358
+                                    }
+                                ],
+                                "distance": 1158,
+                                "postalCode": "M6N 0A7",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "70 Weston Rd",
+                                    "Toronto ON M6N 0A7"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d16c941735",
+                                    "name": "Burger Joint",
+                                    "pluralName": "Burger Joints",
+                                    "shortName": "Burgers",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/burger_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-5498c343498ed095cce0e874-4"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "532884b5498eb7b191e1990f",
+                            "name": "Second Cup",
+                            "location": {
+                                "crossStreet": "St Clair Ave West & Weston",
+                                "lat": 43.67385798137083,
+                                "lng": -79.4703479302649,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.67385798137083,
+                                        "lng": -79.4703479302649
+                                    }
+                                ],
+                                "distance": 1168,
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "St Clair Ave West & Weston",
+                                    "Toronto ON"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d1e0931735",
+                                    "name": "Coffee Shop",
+                                    "pluralName": "Coffee Shops",
+                                    "shortName": "Coffee Shop",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-532884b5498eb7b191e1990f-5"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4c8ff3075fdf6dcb0f982c91",
+                            "name": "Babos Dönerpoint",
+                            "location": {
+                                "address": "2216 Eglinton Ave W",
+                                "crossStreet": "at Caledonia Rd",
+                                "lat": 43.69324926907298,
+                                "lng": -79.46185093463188,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.69324926907298,
+                                        "lng": -79.46185093463188
+                                    }
+                                ],
+                                "distance": 1242,
+                                "postalCode": "M6E 4M7",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "2216 Eglinton Ave W (at Caledonia Rd)",
+                                    "Toronto ON M6E 4M7"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d10b941735",
+                                    "name": "Falafel Restaurant",
+                                    "pluralName": "Falafel Restaurants",
+                                    "shortName": "Falafel",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/falafel_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-4c8ff3075fdf6dcb0f982c91-6"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "5298bfd811d25cdb0d56583c",
+                            "name": "The Stockyards",
+                            "location": {
+                                "address": "1980 St. Clair Avenue West",
+                                "crossStreet": "Weston",
+                                "lat": 43.67268072346159,
+                                "lng": -79.46968811850248,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.67268072346159,
+                                        "lng": -79.46968811850248
+                                    }
+                                ],
+                                "distance": 1303,
+                                "postalCode": "M6N 0A3",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "1980 St. Clair Avenue West (Weston)",
+                                    "Toronto ON M6N 0A3"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d1fd941735",
+                                    "name": "Shopping Mall",
+                                    "pluralName": "Shopping Malls",
+                                    "shortName": "Mall",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/mall_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "venuePage": {
+                                "id": "83874015"
+                            }
+                        },
+                        "referralId": "e-0-5298bfd811d25cdb0d56583c-7"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "535a9d0e498e5384a76da28a",
+                            "name": "Michaels",
+                            "location": {
+                                "address": "30 Weston Rd, Unit 201",
+                                "lat": 43.67281,
+                                "lng": -79.468266,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.67281,
+                                        "lng": -79.468266
+                                    }
+                                ],
+                                "distance": 1304,
+                                "postalCode": "M6N 5A8",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "30 Weston Rd, Unit 201",
+                                    "Toronto ON M6N 5A8"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d127951735",
+                                    "name": "Arts & Crafts Store",
+                                    "pluralName": "Arts & Crafts Stores",
+                                    "shortName": "Arts & Crafts",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/artstore_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-535a9d0e498e5384a76da28a-8"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "59ac47f8d3cce861055ac70c",
+                            "name": "Nations Fresh Food",
+                            "location": {
+                                "lat": 43.67239801784915,
+                                "lng": -79.47062227289146,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.67239801784915,
+                                        "lng": -79.47062227289146
+                                    }
+                                ],
+                                "distance": 1330,
+                                "postalCode": "M6N 4X9",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "Toronto ON M6N 4X9"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d118951735",
+                                    "name": "Grocery Store",
+                                    "pluralName": "Grocery Stores",
+                                    "shortName": "Grocery Store",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-59ac47f8d3cce861055ac70c-9"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "54d802a9498ea0e079ea7af9",
+                            "name": "Chipotle Mexican Grill",
+                            "location": {
+                                "address": "1970 St. Clair Ave West Unit 109",
+                                "crossStreet": "St. Claire & Weston",
+                                "lat": 43.67230549190486,
+                                "lng": -79.46910634442516,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.67230549190486,
+                                        "lng": -79.46910634442516
+                                    }
+                                ],
+                                "distance": 1350,
+                                "postalCode": "M6N 4X9",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "1970 St. Clair Ave West Unit 109 (St. Claire & Weston)",
+                                    "Toronto ON M6N 4X9"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d1c1941735",
+                                    "name": "Mexican Restaurant",
+                                    "pluralName": "Mexican Restaurants",
+                                    "shortName": "Mexican",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/mexican_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-54d802a9498ea0e079ea7af9-10"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "57d4534d498eda3cf25727c8",
+                            "name": "Shoeless Joe's",
+                            "location": {
+                                "address": "4X9, 1980 St Clair Ave W",
+                                "crossStreet": "Old stockyards road",
+                                "lat": 43.671996025433856,
+                                "lng": -79.47111220068527,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.671996025433856,
+                                        "lng": -79.47111220068527
+                                    }
+                                ],
+                                "distance": 1374,
+                                "postalCode": "M6N",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "4X9, 1980 St Clair Ave W (Old stockyards road)",
+                                    "Toronto ON M6N"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11d941735",
+                                    "name": "Sports Bar",
+                                    "pluralName": "Sports Bars",
+                                    "shortName": "Sports Bar",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/sportsbar_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-57d4534d498eda3cf25727c8-11"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4f99e1a3e4b0922288c501b4",
+                            "name": "Pho Xua",
+                            "location": {
+                                "address": "1768 St Clair Ave",
+                                "crossStreet": "Osler",
+                                "lat": 43.674056,
+                                "lng": -79.461112,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.674056,
+                                        "lng": -79.461112
+                                    }
+                                ],
+                                "distance": 1401,
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "1768 St Clair Ave (Osler)",
+                                    "Toronto ON"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d14a941735",
+                                    "name": "Vietnamese Restaurant",
+                                    "pluralName": "Vietnamese Restaurants",
+                                    "shortName": "Vietnamese",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/vietnamese_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-4f99e1a3e4b0922288c501b4-12"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "584c4d050319b8682aa88aab",
+                            "name": "Shacklands Brewing",
+                            "location": {
+                                "address": "100 Symes Rd",
+                                "lat": 43.67295080687277,
+                                "lng": -79.47864755988121,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.67295080687277,
+                                        "lng": -79.47864755988121
+                                    }
+                                ],
+                                "distance": 1404,
+                                "postalCode": "M6N 0A8",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "100 Symes Rd",
+                                    "Toronto ON M6N 0A8"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "50327c8591d4c4b30a586d5d",
+                                    "name": "Brewery",
+                                    "pluralName": "Breweries",
+                                    "shortName": "Brewery",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/brewery_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-584c4d050319b8682aa88aab-13"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "55569b59498ec5aeca07911e",
+                            "name": "Rainhard Brewing",
+                            "location": {
+                                "address": "100 Symes Rd",
+                                "lat": 43.67269006118166,
+                                "lng": -79.47867903828485,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.67269006118166,
+                                        "lng": -79.47867903828485
+                                    }
+                                ],
+                                "distance": 1431,
+                                "postalCode": "M6N 3T1",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "100 Symes Rd",
+                                    "Toronto ON M6N 3T1"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "50327c8591d4c4b30a586d5d",
+                                    "name": "Brewery",
+                                    "pluralName": "Breweries",
+                                    "shortName": "Brewery",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/brewery_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-55569b59498ec5aeca07911e-14"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4d6946606297721e8596c6b5",
+                            "name": "Sabor Brasil Restaurant",
+                            "location": {
+                                "address": "1702 St Clair W",
+                                "lat": 43.67444516608626,
+                                "lng": -79.45922778096221,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.67444516608626,
+                                        "lng": -79.45922778096221
+                                    }
+                                ],
+                                "distance": 1461,
+                                "postalCode": "M6N 1J1",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "1702 St Clair W",
+                                    "Toronto ON M6N 1J1"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d16b941735",
+                                    "name": "Brazilian Restaurant",
+                                    "pluralName": "Brazilian Restaurants",
+                                    "shortName": "Brazilian",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/argentinian_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-4d6946606297721e8596c6b5-15"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4af723f4f964a5205c0622e3",
+                            "name": "Starbucks",
+                            "location": {
+                                "address": "2151 St. Clair Ave. W.",
+                                "crossStreet": "at Old Stock Yards Rd.",
+                                "lat": 43.67115544767389,
+                                "lng": -79.47332181750663,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.67115544767389,
+                                        "lng": -79.47332181750663
+                                    }
+                                ],
+                                "distance": 1478,
+                                "postalCode": "M6N 5B9",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "2151 St. Clair Ave. W. (at Old Stock Yards Rd.)",
+                                    "Toronto ON M6N 5B9"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d1e0931735",
+                                    "name": "Coffee Shop",
+                                    "pluralName": "Coffee Shops",
+                                    "shortName": "Coffee Shop",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-4af723f4f964a5205c0622e3-16"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4aedafd1f964a52025ce21e3",
+                            "name": "Commisso Bros. & Racco Italian Bakery",
+                            "location": {
+                                "address": "8 Kincort Street",
+                                "crossStreet": "Castlefield and Kincort",
+                                "lat": 43.69762110821487,
+                                "lng": -79.46854960738862,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.69762110821487,
+                                        "lng": -79.46854960738862
+                                    }
+                                ],
+                                "distance": 1493,
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "8 Kincort Street (Castlefield and Kincort)",
+                                    "Toronto ON"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d110941735",
+                                    "name": "Italian Restaurant",
+                                    "pluralName": "Italian Restaurants",
+                                    "shortName": "Italian",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/italian_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-4aedafd1f964a52025ce21e3-17"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "5387ed15498e7b711dcb33a1",
+                            "name": "Super Coffee",
+                            "location": {
+                                "address": "1148 Weston Road",
+                                "crossStreet": "at Eglinton Ave W",
+                                "lat": 43.68686134703151,
+                                "lng": -79.48960043952441,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.68686134703151,
+                                        "lng": -79.48960043952441
+                                    }
+                                ],
+                                "distance": 1510,
+                                "postalCode": "M6N 3S3",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "1148 Weston Road (at Eglinton Ave W)",
+                                    "Toronto ON M6N 3S3"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d1e0931735",
+                                    "name": "Coffee Shop",
+                                    "pluralName": "Coffee Shops",
+                                    "shortName": "Coffee Shop",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-5387ed15498e7b711dcb33a1-18"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "519d69aa498e8864b14e6959",
+                            "name": "W Burger Bar",
+                            "location": {
+                                "address": "682 Caledonia St",
+                                "lat": 43.697074813128054,
+                                "lng": -79.46337374091517,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.697074813128054,
+                                        "lng": -79.46337374091517
+                                    }
+                                ],
+                                "distance": 1549,
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "682 Caledonia St",
+                                    "Toronto ON"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d16c941735",
+                                    "name": "Burger Joint",
+                                    "pluralName": "Burger Joints",
+                                    "shortName": "Burgers",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/burger_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-519d69aa498e8864b14e6959-19"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4be5bc1a2468c92825760043",
+                            "name": "LCBO",
+                            "location": {
+                                "address": "2151 St. Clair Ave W",
+                                "crossStreet": "at Keele St",
+                                "lat": 43.67043567393561,
+                                "lng": -79.473005001028,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.67043567393561,
+                                        "lng": -79.473005001028
+                                    }
+                                ],
+                                "distance": 1555,
+                                "postalCode": "M5N 1K5",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "2151 St. Clair Ave W (at Keele St)",
+                                    "Toronto ON M5N 1K5"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d186941735",
+                                    "name": "Liquor Store",
+                                    "pluralName": "Liquor Stores",
+                                    "shortName": "Liquor Store",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_liquor_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-4be5bc1a2468c92825760043-20"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4d4d946da7f86ea8993638de",
+                            "name": "Tavora Foods",
+                            "location": {
+                                "lat": 43.6748679349008,
+                                "lng": -79.4565586669527,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.6748679349008,
+                                        "lng": -79.4565586669527
+                                    }
+                                ],
+                                "distance": 1579,
+                                "cc": "CA",
+                                "country": "Canada"
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d10e951735",
+                                    "name": "Fish Market",
+                                    "pluralName": "Fish Markets",
+                                    "shortName": "Fish Market",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_fishmarket_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-4d4d946da7f86ea8993638de-21"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "546d3234498e8129e1f895b7",
+                            "name": "Elte mkt",
+                            "location": {
+                                "address": "1381 Castlefield Ave",
+                                "crossStreet": "at Caledonia Rd",
+                                "lat": 43.6979991167221,
+                                "lng": -79.46459936093613,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.6979991167221,
+                                        "lng": -79.46459936093613
+                                    }
+                                ],
+                                "distance": 1609,
+                                "postalCode": "M6B 1G7",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "1381 Castlefield Ave (at Caledonia Rd)",
+                                    "Toronto ON M6B 1G7"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d1f8941735",
+                                    "name": "Furniture / Home Store",
+                                    "pluralName": "Furniture / Home Stores",
+                                    "shortName": "Furniture / Home",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/furniture_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-546d3234498e8129e1f895b7-22"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "5547aad8498e00f3f580ea93",
+                            "name": "Sushi Zuki",
+                            "location": {
+                                "address": "2030 Eglinton Avenue West",
+                                "lat": 43.69449449646573,
+                                "lng": -79.45614091259421,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.69449449646573,
+                                        "lng": -79.45614091259421
+                                    }
+                                ],
+                                "distance": 1654,
+                                "cc": "CA",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "2030 Eglinton Avenue West"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d111941735",
+                                    "name": "Japanese Restaurant",
+                                    "pluralName": "Japanese Restaurants",
+                                    "shortName": "Japanese",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/japanese_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-5547aad8498e00f3f580ea93-23"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4b9ee0b8f964a520ef0737e3",
+                            "name": "Dairy Freeze",
+                            "location": {
+                                "address": "1601 St. Clair Ave. W.",
+                                "crossStreet": "at Caledonia Park Rd.",
+                                "lat": 43.67519526623445,
+                                "lng": -79.454845523465,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.67519526623445,
+                                        "lng": -79.454845523465
+                                    }
+                                ],
+                                "distance": 1661,
+                                "postalCode": "M6E 1C9",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "1601 St. Clair Ave. W. (at Caledonia Park Rd.)",
+                                    "Toronto ON M6E 1C9"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d16c941735",
+                                    "name": "Burger Joint",
+                                    "pluralName": "Burger Joints",
+                                    "shortName": "Burgers",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/burger_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-4b9ee0b8f964a520ef0737e3-24"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "525571ba11d290290e3cf677",
+                            "name": "Caledonia Bakery & Pastry",
+                            "location": {
+                                "address": "1492 St Clair Ave W",
+                                "crossStreet": "Caledonia Rd",
+                                "lat": 43.67558766797918,
+                                "lng": -79.45442127435155,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.67558766797918,
+                                        "lng": -79.45442127435155
+                                    }
+                                ],
+                                "distance": 1663,
+                                "postalCode": "M6E 1C7",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "1492 St Clair Ave W (Caledonia Rd)",
+                                    "Toronto ON M6E 1C7"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d16a941735",
+                                    "name": "Bakery",
+                                    "pluralName": "Bakeries",
+                                    "shortName": "Bakery",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-525571ba11d290290e3cf677-25"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4ff09fafe4b073b8518c6481",
+                            "name": "Fat Louie's BBQ",
+                            "location": {
+                                "address": "110 West Toronto Street",
+                                "crossStreet": "at Old Stock Yards Rd.",
+                                "lat": 43.66932673950346,
+                                "lng": -79.46916626397906,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.66932673950346,
+                                        "lng": -79.46916626397906
+                                    }
+                                ],
+                                "distance": 1679,
+                                "postalCode": "M6N 5B7",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "110 West Toronto Street (at Old Stock Yards Rd.)",
+                                    "Toronto ON M6N 5B7"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d1cb941735",
+                                    "name": "Food Truck",
+                                    "pluralName": "Food Trucks",
+                                    "shortName": "Food Truck",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/streetfood_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-4ff09fafe4b073b8518c6481-26"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "539e3886498e792cf12296d7",
+                            "name": "Nova Era Bakery Pastry",
+                            "location": {
+                                "address": "1480 St. Clair Ave W",
+                                "crossStreet": "Caledonia Rd",
+                                "lat": 43.67570091309208,
+                                "lng": -79.45392144172526,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.67570091309208,
+                                        "lng": -79.45392144172526
+                                    }
+                                ],
+                                "distance": 1688,
+                                "postalCode": "M6E 1C7",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "1480 St. Clair Ave W (Caledonia Rd)",
+                                    "Toronto ON M6E 1C7"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d16a941735",
+                                    "name": "Bakery",
+                                    "pluralName": "Bakeries",
+                                    "shortName": "Bakery",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-539e3886498e792cf12296d7-27"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "544bc764498eb6708774a72f",
+                            "name": "Starbucks",
+                            "location": {
+                                "address": "1320 Castlefield Ave",
+                                "crossStreet": "at Caledonia Rd",
+                                "lat": 43.69864215296812,
+                                "lng": -79.46220887559276,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.69864215296812,
+                                        "lng": -79.46220887559276
+                                    }
+                                ],
+                                "distance": 1747,
+                                "postalCode": "M6B 4B3",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "1320 Castlefield Ave (at Caledonia Rd)",
+                                    "Toronto ON M6B 4B3"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d1e0931735",
+                                    "name": "Coffee Shop",
+                                    "pluralName": "Coffee Shops",
+                                    "shortName": "Coffee Shop",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-544bc764498eb6708774a72f-28"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4b9b3c7bf964a52082fb35e3",
+                            "name": "La Paloma",
+                            "location": {
+                                "address": "1357 St. Clair Avenue West",
+                                "crossStreet": "Lansdowne Avenue",
+                                "lat": 43.67616408383171,
+                                "lng": -79.45086719224197,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 43.67616408383171,
+                                        "lng": -79.45086719224197
+                                    }
+                                ],
+                                "distance": 1870,
+                                "postalCode": "M6E 1C5",
+                                "cc": "CA",
+                                "city": "Toronto",
+                                "state": "ON",
+                                "country": "Canada",
+                                "formattedAddress": [
+                                    "1357 St. Clair Avenue West (Lansdowne Avenue)",
+                                    "Toronto ON M6E 1C5"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d1c9941735",
+                                    "name": "Ice Cream Shop",
+                                    "pluralName": "Ice Cream Shops",
+                                    "shortName": "Ice Cream",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/icecream_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-4b9b3c7bf964a52082fb35e3-29"
+                    }
+                ]
+            }
+        ]
+    }
+}
