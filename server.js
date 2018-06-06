@@ -32,7 +32,6 @@ app.get('/api/explore', (req, res) => {
         if (err) {
             res.send(err);
         } else {
-            console.log(data)
             res.send(JSON.parse(data));
         }
     });
