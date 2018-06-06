@@ -22,17 +22,15 @@ class App extends Component {
   }
 
   search() {
-    let radius = store.getState().filter.radius;
-
     store.dispatch(startLoading());
-    getData(radius, this.updateState.bind(this));
+
+    getData(store.getState().filter, this.updateState.bind(this));
   }
 
   componentDidMount() {
     // TODO: check if needed
     store.subscribe(() => this.forceUpdate());
-
-    this.search(2000);
+    this.search();
   }
 
   render() {
