@@ -2,7 +2,6 @@ const express = require('express');
 const request = require('request');
 const qs = require('querystring');
 const dotenv = require('dotenv');
-const cors = require('cors');
 
 dotenv.config();
 const clientId = process.env.CLIENT_ID;
@@ -11,7 +10,7 @@ const clientSecret = process.env.CLIENT_SECRET;
 const apiExplore = "https://api.foursquare.com/v2/venues/explore/";
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 app.get('/api/explore', (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -39,6 +38,6 @@ app.get('/api/explore', (req, res) => {
     });
 });
 
-app.use(express.static('build'));
+//app.use(express.static('build'));
 
 app.listen(port);
