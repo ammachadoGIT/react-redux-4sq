@@ -1,7 +1,7 @@
 import request from "request";
 import qs from "querystring";
 
-export function getData(radius, callback) {
+export function getData(filter, callback) {
 
     navigator.geolocation.getCurrentPosition(position => {
 
@@ -9,9 +9,10 @@ export function getData(radius, callback) {
         const lng = position.coords.longitude;
 
         const params = {
-            ll: `${lat},${lng}`,
-            radius: radius
+            ll: `${lat},${lng}`
         };
+
+        Object.assign(params, filter);
 
         //TODO: fix server to work on both dev and prod environments
         const url = `http://localhost:3001/api/explore?${qs.stringify(params)}`;
