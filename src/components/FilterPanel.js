@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { Row, Button, Panel } from 'react-bootstrap';
-import { setFilter } from '../util/actions';
-import { connect } from 'react-redux';
+import React, { Component } from "react";
+import { Row, Button, Panel } from "react-bootstrap";
+import { setFilter } from "../util/actions";
+import { connect } from "react-redux";
 
 class FilterPanel extends Component {
 

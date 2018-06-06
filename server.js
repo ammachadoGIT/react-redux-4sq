@@ -1,7 +1,7 @@
-const express = require('express');
-const request = require('request');
-const qs = require('querystring');
-const dotenv = require('dotenv');
+const express = require("express");
+const request = require("request");
+const qs = require("querystring");
+const dotenv = require("dotenv");
 
 dotenv.config();
 const clientId = process.env.CLIENT_ID;
@@ -12,8 +12,8 @@ const apiExplore = "https://api.foursquare.com/v2/venues/explore/";
 const app = express();
 const port = process.env.PORT || 3001;
 
-app.get('/api/explore', (req, res) => {
-    res.setHeader('Access-Control-Allow-Origin', '*');
+app.get("/api/explore", (req, res) => {
+    res.setHeader("Access-Control-Allow-Origin", "*");
 
     const ll = req.query.ll;
     const radius = req.query.radius;
@@ -23,7 +23,7 @@ app.get('/api/explore', (req, res) => {
         client_secret: clientSecret,
         ll: ll,
         sortByDistance: 1,
-        v: '20180515',
+        v: "20180515",
         radius: radius
     };
 
@@ -37,6 +37,6 @@ app.get('/api/explore', (req, res) => {
     });
 });
 
-//app.use(express.static('build'));
+//app.use(express.static("build"));
 
 app.listen(port);

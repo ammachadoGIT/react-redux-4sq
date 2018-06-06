@@ -1,11 +1,11 @@
-import { createStore } from 'redux';
-import { LIST_DATA, START_LOADING, STOP_LOADING, SET_LOCATION, SET_ERROR, SET_FILTER } from './actions';
+import { createStore } from "redux";
+import { LIST_DATA, START_LOADING, STOP_LOADING, SET_LOCATION, SET_ERROR, SET_FILTER } from "./actions";
 
 const initialState = {
     venues: [],
     isLoadingData: false,
-    location: '',
-    error: '',
+    location: "",
+    error: "",
     filter: { radius: 2000 }
 };
 

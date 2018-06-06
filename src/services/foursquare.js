@@ -1,5 +1,5 @@
-import request from 'request';
-import qs from 'querystring';
+import request from "request";
+import qs from "querystring";
 
 export function getData(radius, callback) {
 

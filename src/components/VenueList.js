@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import VenuePanel from './VenuePanel';
-import { Alert } from 'react-bootstrap';
-import { sortByDistance } from '../util/sorting';
-import { connect } from 'react-redux';
+import React, { Component } from "react";
+import VenuePanel from "./VenuePanel";
+import { Alert } from "react-bootstrap";
+import { sortByDistance } from "../util/sorting";
+import { connect } from "react-redux";
 
 class VenueList extends Component {
   render() {
@@ -32,10 +32,10 @@ class VenueList extends Component {
           errorAPI || errorProp ?
             <Alert bsStyle="danger">
               {
-                errorAPI ? venues.meta.errorDetail : ''
+                errorAPI ? venues.meta.errorDetail : ""
               }
               {
-                errorProp ? this.props.error.message : ''
+                errorProp ? this.props.error.message : ""
               }
             </Alert> :
 

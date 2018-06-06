@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 import { getData } from "./services/foursquare";
-import VenueResult from './components/VenueResult';
-import FilterPanel from './components/FilterPanel';
-import { Provider } from 'react-redux';
-import createStore from './util/redux';
-import { setLocation, startLoading, stopLoading, listData, error } from './util/actions';
+import VenueResult from "./components/VenueResult";
+import FilterPanel from "./components/FilterPanel";
+import { Provider } from "react-redux";
+import createStore from "./util/redux";
+import { setLocation, startLoading, stopLoading, listData, error } from "./util/actions";
 
 let store = createStore();
 

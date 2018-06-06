@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import VenueList from './VenueList';
-import { connect } from 'react-redux';
+import React, { Component } from "react";
+import VenueList from "./VenueList";
+import { connect } from "react-redux";
 
 class VenueResult extends Component {
   render() {
