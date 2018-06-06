@@ -30,7 +30,7 @@ app.get("/api/explore", (req, res) => {
         params.ll = ll;
     } 
     if (section) {
-        params.section =  section;
+        params.section =  section.toLowerCase();
     }
     if (radius) {
         params.radius =  radius;
