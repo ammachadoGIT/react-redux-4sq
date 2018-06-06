@@ -23,8 +23,8 @@ class FilterPanel extends Component {
     render() {
         let radius = this.props.filter.radius;
         let section = this.props.filter.section;
-        let sections = ["food", "drinks", "coffee", "shops", "arts",
-            "outdoors", "sights", "trending", "topPicks"];
+        let sections = ["Food", "Drinks", "Coffee", "Shops", "Arts",
+            "Outdoors", "Sights", "Trending", "TopPicks"];
 
         return (
             <Panel className="col-md-12 text-center panel-filter">
@@ -34,16 +34,22 @@ class FilterPanel extends Component {
                 <Panel.Body>
                     <form onSubmit={this.handleSubmit.bind(this)}>
                         <Row>
-                            <Col md={6}>
-                                <label htmlFor="radius-slider" >Radius:</label>
+                            <Col md={3} className="text-right">
+                                <label htmlFor="radius-slider" >Radius: </label>
                                 <span id="radius-slider-value">{radius} m</span>
+                            </Col>
+
+                            <Col md={3} className="text-left">
                                 <input id="radius-slider" type="range" min="500" max="5000" maxLength="5" step="500"
                                     onChange={this.setRadius.bind(this)} defaultValue={radius} />
                             </Col>
-                            <Col md={6}>
+                        </Row>
+                        <Row>
+                            <Col md={3} className="text-right">
                                 <label htmlFor="section" >Section:</label>
-
-                                <select id="section" type="text" defaultValue={section} onChange={this.setSection.bind(this)} >
+                            </Col>
+                            <Col md={3} className="text-left">
+                                <select id="section" type="text" defaultValue={section} onChange={this.setSection.bind(this)} className="col-md-12" >
                                     <option value="" key="">Select...</option>
                                     {sections.map(s => <option value={s} key={s}>{s}</option>)}
                                 </select>
