@@ -1,33 +1,33 @@
 import { createStore } from "redux";
-import { LIST_DATA, START_LOADING, STOP_LOADING, SET_ERROR, SET_FILTER } from "./actions";
+import * as ActionTypes from "../constants/ActionTypes";
 
 const initialState = {
     venues: [],
     isLoadingData: false,
     location: "",
     error: "",
-    filter: { radius: 2000 }
+    filter: { radius: 2000, section: '' }
 };
 
 const reducer = (state = initialState, action) => {
     let newState;
     switch (action.type) {
-        case LIST_DATA:
+        case ActionTypes.LIST_DATA:
             newState = Object.assign({}, state, {
                 venues: action.data,
                 location: action.data.response.headerFullLocation
             });
             return newState;
-        case START_LOADING:
+        case ActionTypes.START_LOADING:
             newState = Object.assign({}, state, { isLoadingData: true });
             return newState;
-        case STOP_LOADING:
+        case ActionTypes.STOP_LOADING:
             newState = Object.assign({}, state, { isLoadingData: false });
             return newState;
-        case SET_ERROR:
+        case ActionTypes.SET_ERROR:
             newState = Object.assign({}, state, { error: action.error });
             return newState;
-        case SET_FILTER:
+        case ActionTypes.SET_FILTER:
             newState = Object.assign({}, state, { filter: action.filter });
             return newState;
         default:
@@ -44,4 +44,3 @@ export default function create() {
 
     return store;
 }
-
