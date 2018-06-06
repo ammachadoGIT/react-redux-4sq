@@ -17,15 +17,24 @@ app.get("/api/explore", (req, res) => {
 
     const ll = req.query.ll;
     const radius = req.query.radius;
+    const section = req.query.section;
 
     const params = {
         client_id: clientId,
         client_secret: clientSecret,
-        ll: ll,
         sortByDistance: 1,
-        v: "20180515",
-        radius: radius
+        v: "20180515"
     };
+    
+    if (ll) {
+        params.ll = ll;
+    } 
+    if (section) {
+        params.section =  section;
+    }
+    if (radius) {
+        params.radius =  radius;
+    }
 
     const url = `${apiExplore}?${qs.stringify(params)}`;
     request(url, (err, response, data) => {
