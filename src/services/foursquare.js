@@ -11,18 +11,16 @@ export function getData(radius, callback) {
         const params = {
             ll: `${lat},${lng}`,
             radius: radius
-        }
+        };
 
         //TODO: fix server to work on both dev and prod environments
-        request(`https://react-4sq.herokuapp.com/api/explore?` + qs.stringify(params), (err, res, data) => {
-        //request(`http://localhost:3000/api/explore?` + qs.stringify(params), (err, res, data) => {
-            console.log(err);
-            console.log(data);
+        const url = `http://localhost:3001/api/explore?${qs.stringify(params)}`;
+        //url = `https://react-4sq.herokuapp.com/api/explore?${qs.stringify(params)}`
 
+        request(url, (err, res, data) => {
             if (err) {
                 callback(err);
             } else {
-                console.log("aaaa", data)
                 callback(null, JSON.parse(data));
             }
         });
