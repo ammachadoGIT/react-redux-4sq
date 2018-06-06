@@ -5,9 +5,6 @@ import { connect } from "react-redux";
 
 class FilterPanel extends Component {
 
-    constructor() {
-        super();
-    }
     setRadius(event) {
         this.props.setFilter({ radius: event.target.value });
     }
