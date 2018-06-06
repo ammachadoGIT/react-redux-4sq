@@ -1,5 +1,5 @@
 import { createStore } from "redux";
-import { LIST_DATA, START_LOADING, STOP_LOADING, SET_LOCATION, SET_ERROR, SET_FILTER } from "./actions";
+import { LIST_DATA, START_LOADING, STOP_LOADING, SET_ERROR, SET_FILTER } from "./actions";
 
 const initialState = {
     venues: [],
@@ -13,16 +13,16 @@ const reducer = (state = initialState, action) => {
     let newState;
     switch (action.type) {
         case LIST_DATA:
-            newState = Object.assign({}, state, { venues: action.data });
+            newState = Object.assign({}, state, {
+                venues: action.data,
+                location: action.data.response.headerFullLocation
+            });
             return newState;
         case START_LOADING:
             newState = Object.assign({}, state, { isLoadingData: true });
             return newState;
         case STOP_LOADING:
             newState = Object.assign({}, state, { isLoadingData: false });
-            return newState;
-        case SET_LOCATION:
-            newState = Object.assign({}, state, { location: action.location });
             return newState;
         case SET_ERROR:
             newState = Object.assign({}, state, { error: action.error });

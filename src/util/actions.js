@@ -17,10 +17,6 @@ export function stopLoading() {
     return { type: STOP_LOADING };
 }
 
-export function setLocation(location) {
-    return { type: SET_LOCATION, location };
-}
-
 export function error(error) {
     return { type: SET_ERROR, error };
 }

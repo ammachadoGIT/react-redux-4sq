@@ -5,7 +5,7 @@ import VenueResult from "./components/VenueResult";
 import FilterPanel from "./components/FilterPanel";
 import { Provider } from "react-redux";
 import createStore from "./util/redux";
-import { setLocation, startLoading, stopLoading, listData, error } from "./util/actions";
+import { startLoading, stopLoading, listData, error } from "./util/actions";
 
 let store = createStore();
 
@@ -18,7 +18,6 @@ class App extends Component {
       store.dispatch(error(err));
     } else {
       store.dispatch(listData(data));
-      store.dispatch(setLocation(data.response.headerFullLocation));
     }
   }
 
