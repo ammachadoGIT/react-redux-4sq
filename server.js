@@ -25,15 +25,15 @@ app.get("/api/explore", (req, res) => {
         sortByDistance: 1,
         v: "20180515"
     };
-    
+
     if (ll) {
         params.ll = ll;
-    } 
+    }
     if (section) {
-        params.section =  section.toLowerCase();
+        params.section = section.toLowerCase();
     }
     if (radius) {
-        params.radius =  radius;
+        params.radius = radius;
     }
 
     const url = `${apiExplore}?${qs.stringify(params)}`;
@@ -46,6 +46,8 @@ app.get("/api/explore", (req, res) => {
     });
 });
 
-//app.use(express.static("build"));
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static("build"));
+}
 
 app.listen(port);
