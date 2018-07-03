@@ -1,44 +1,56 @@
 import React, { Component } from "react";
-import { Panel } from "react-bootstrap";
+import { Panel, Row, Col } from "react-bootstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default class VenuePanel extends Component {
     render() {
         const venue = this.props.venue;
         const category = venue.categories[0];
         const linkToFoursquare = `https://foursquare.com/v/${venue.id}`;
-        const icon = `${category.icon.prefix}bg_64${category.icon.suffix}`;
+        const icon = `${category.icon.prefix}64${category.icon.suffix}`;
         const googleMapsLink = venue.location.lat && venue.location.lng ?
             `http://www.google.com/maps/place/${venue.location.lat},${venue.location.lng}` :
             null;
 
         return (
-            <div className="col-sm-6 col-md-4 ">
-                <Panel className="panel-venue">
+            <Col sm={6} md={4} >
+                <Panel className="panel-venue panel-primary">
                     <Panel.Heading>
-                        <img src={category.icon && icon} alt={category.name} />
+                        <Row>
+                            <Col xs="2">
+                                <img src={category.icon && icon} alt={category.name} />
+                            </Col>
 
-                        <h4>
-                            <a href={linkToFoursquare} target="_blank">
-                                {venue.name}
-                            </a>
-                        </h4>
+                            <Col md="10" className="venue-name">
+                                <span>
+                                    <a href={linkToFoursquare} target="_blank">
+                                        {venue.name}
+                                    </a>
+                                </span>
+                                <p>{category.name}</p>
+                            </Col>
+                        </Row>
 
                     </Panel.Heading>
                     <Panel.Body>
-                        <p>{category.name}</p>
+
                         <VenueAddress location={venue.location} />
                     </Panel.Body>
                     <Panel.Footer>
+
+                        
+
                         {
                             googleMapsLink ?
                                 <a href={googleMapsLink} target="_blank">
                                     View on Google Maps
+                                    <FontAwesomeIcon icon="map-marked-alt" />
                                 </a>
                                 : ""
                         }</Panel.Footer>
 
                 </Panel>
-            </div>
+            </Col>
         )
     }
 }
