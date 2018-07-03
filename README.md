@@ -10,8 +10,6 @@ Some features of the app:
 - The user can click on the name  of the venues to get more information about them
 - A link to the venue location on Google Maps is also provided
 - The user can filter the results by providing search parameters like `Radius` and `Section` (e.g. `food` or `coffee`)
-
-
-
+- Response `caching` in order to avoid unnecessary calls to FourSquare API.
 
 See it online: https://venue-discovery.herokuapp.com/
