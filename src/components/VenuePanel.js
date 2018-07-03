@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Panel, Row, Col } from "react-bootstrap";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default class VenuePanel extends Component {
     render() {
@@ -44,7 +43,6 @@ export default class VenuePanel extends Component {
                             googleMapsLink ?
                                 <a href={googleMapsLink} target="_blank">
                                     View on Google Maps
-                                    <FontAwesomeIcon icon="map-marked-alt" />
                                 </a>
                                 : ""
                         }</Panel.Footer>
