@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import VenuePanel from "./VenuePanel";
+import VenuePanel from "../VenuePanel/index";
 import { Alert } from "react-bootstrap";
-import { sortByDistance } from "../util/sorting";
+import { sortByDistance } from "../../util/sorting";
 import { connect } from "react-redux";
 
 class VenueList extends Component {
@@ -19,7 +19,7 @@ class VenueList extends Component {
       venues.response.warning &&
       venues.response.warning.text;
     return (
-      <div>
+      <div className="venue-list">
         {
           warning ?
             <Alert bsStyle="warning">

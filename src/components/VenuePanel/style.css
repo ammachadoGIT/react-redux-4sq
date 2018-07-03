@@ -1,0 +1,13 @@
+.panel-venue {
+    height: 300px;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+}
+
+.panel-heading a {
+    color: white;
+}
+
+.panel-heading span {
+    font-size: 1.5em;
+}

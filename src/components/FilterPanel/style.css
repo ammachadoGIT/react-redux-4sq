@@ -1,0 +1,4 @@
+.panel-filter {
+    margin-bottom: var(--default-margin);
+    box-shadow: var(--box-shadow);
+}

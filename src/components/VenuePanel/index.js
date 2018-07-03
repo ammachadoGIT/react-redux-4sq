@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Panel, Row, Col } from "react-bootstrap";
+import "./style.css";
 
 export default class VenuePanel extends Component {
     render() {

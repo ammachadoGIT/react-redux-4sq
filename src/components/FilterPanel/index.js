@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Row, Button, Panel, Col } from "react-bootstrap";
-import { setFilter } from "../util/actions";
+import { setFilter } from "../../util/actions";
 import { connect } from "react-redux";
+import "./style.css";
 
 class FilterPanel extends Component {
 
@@ -27,28 +28,28 @@ class FilterPanel extends Component {
             "Outdoors", "Sights", "Trending", "TopPicks"];
 
         return (
-            <Panel className="col-md-12 text-center panel-filter">
+            <Panel className="col-xs-8 col-xs-offset-2 text-center panel-filter">
                 <Panel.Heading>
                     <h3>Filter</h3>
                 </Panel.Heading>
                 <Panel.Body>
                     <form onSubmit={this.handleSubmit.bind(this)}>
                         <Row>
-                            <Col md={3} className="text-right">
+                            <Col xs={5} className="text-right">
                                 <label htmlFor="radius-slider" >Radius: </label>
                                 <span id="radius-slider-value">{radius} m</span>
                             </Col>
 
-                            <Col md={3} className="text-left">
+                            <Col xs={5} className="text-left">
                                 <input id="radius-slider" type="range" min="500" max="5000" maxLength="5" step="500"
                                     onChange={this.setRadius.bind(this)} defaultValue={radius} />
                             </Col>
                         </Row>
                         <Row>
-                            <Col md={3} className="text-right">
+                            <Col xs={5} className="text-right">
                                 <label htmlFor="section" >Section:</label>
                             </Col>
-                            <Col md={3} className="text-left">
+                            <Col xs={5} className="text-left">
                                 <select id="section" type="text" defaultValue={section} onChange={this.setSection.bind(this)} className="col-md-12" >
                                     <option value="" key="">Select...</option>
                                     {sections.map(s => <option value={s} key={s}>{s}</option>)}
