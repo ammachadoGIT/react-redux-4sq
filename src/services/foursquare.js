@@ -18,7 +18,8 @@ export function getData(filter, callback) {
         let server;
         if (process.env.NODE_ENV === 'production') {
             const parsedUrl = url.parse(document.location.href);
-            server = parsedUrl.protocol + parsedUrl.host;
+            server = `${parsedUrl.protocol}//${parsedUrl.host}`;
+            console.log(server)
         } else {
             server = "http://localhost:3001";
         }
