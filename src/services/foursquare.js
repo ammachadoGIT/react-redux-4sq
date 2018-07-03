@@ -19,7 +19,7 @@ export function getData(filter, callback) {
         if (process.env.NODE_ENV === 'production') {
             const parsedUrl = url.parse(document.location.href);
             server = `${parsedUrl.protocol}//${parsedUrl.host}`;
-            console.log(server)
+            console.log(server);
         } else {
             server = "http://localhost:3001";
         }
@@ -29,6 +29,7 @@ export function getData(filter, callback) {
             if (err) {
                 callback(err);
             } else {
+                console.log(data)
                 callback(null, JSON.parse(data));
             }
         });
