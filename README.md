@@ -14,4 +14,4 @@ Some features of the app:
 
 
 
-See it online: https://venue-sabado.herokuapp.com/
+See it online: https://venue-discovery.herokuapp.com/
