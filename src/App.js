@@ -3,52 +3,50 @@ import "./App.css";
 import { getData } from "./services/foursquare";
 import VenueResult from "./components/VenueResult";
 import FilterPanel from "./components/FilterPanel";
-import { Provider } from "react-redux";
-import createStore from "./util/redux";
 import { startLoading, stopLoading, listData, error } from "./util/actions";
-
-let store = createStore();
-
+import { connect } from 'react-redux';
 class App extends Component {
 
   updateState(err, data) {
-
-    store.dispatch(stopLoading(data));
+    this.props.stopLoading();
     if (err) {
-      store.dispatch(error(err));
+      this.props.error(err);
     } else {
-      store.dispatch(listData(data));
+      this.props.listData(data);
     }
   }
 
   search() {
-    store.dispatch(startLoading());
-
-    getData(store.getState().filter, this.updateState.bind(this));
+    this.props.startLoading();
+    getData(this.props.store.filter, this.updateState.bind(this));
   }
 
   componentDidMount() {
-    // TODO: check if needed
-    store.subscribe(() => this.forceUpdate());
     this.search();
   }
 
   render() {
     return (
-      <Provider store={store} >
-        <div className="App">
-          <header className="App-header">
-            <h1>Venue Discovery</h1>
-          </header>
+      <div className="App">
+        <header className="App-header">
+          <h1>Venue Discovery</h1>
+        </header>
 
-          <h2>Discovering new places around {store.getState().location}</h2>
-          <FilterPanel fnSearch={this.search.bind(this)} />
-          <VenueResult />
+        <h2>Discovering new places around {this.props.store.location}</h2>
+        <FilterPanel fnSearch={this.search.bind(this)} />
+        <VenueResult />
 
-        </div>
-      </Provider>
+      </div>
     );
   }
 }
 
-export default App;
+const mapStateToProps = (state) => {
+  return {
+    store: state
+  }
+}
+
+export default connect(mapStateToProps, {
+  startLoading, stopLoading, error, listData
+})(App)
