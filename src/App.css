@@ -1,42 +1,12 @@
-.App {
-    text-align: center;
+body {
+    --box-shadow: 0 0 10px #aaaaaa;
+    --default-margin: 20px;
 }
 
 .App-header {
-    /* background-color: #378eda; */
     height: 80px;
     padding: 5px;
-    margin-bottom: 20px;
-}
-
-.panel-venue {
-    background-color: #EFEFEF;
-    height: 300px;
-    overflow: hidden;
-}
-
-.panel-venue .panel-body {
-    height: 120px;
-}
-
-.panel-heading a {
-    color: white;
-}
-
-.panel-heading span {
-    font-size: 1.5em;
-}
-
-.panel-filter {
-    margin-bottom: 10px;
-}
-
-/* TODO: center vertically */
-
-.venue-name {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-
+    margin-bottom: var(--default-margin);
+    box-shadow: var(--box-shadow);
+    text-align: center;
 }
