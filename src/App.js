@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 import { getData } from "./services/foursquare";
-import VenueResult from "./components/VenueResult";
-import FilterPanel from "./components/FilterPanel";
+import VenueResult from "./components/VenueResult/index";
+import FilterPanel from "./components/FilterPanel/index";
 import { startLoading, stopLoading, listData, error } from "./util/actions";
 import { connect } from 'react-redux';
 class App extends Component {
