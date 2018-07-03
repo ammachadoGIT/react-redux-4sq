@@ -2,6 +2,15 @@ import request from "request";
 import qs from "querystring";
 import url from "url";
 
+let server;
+if (process.env.NODE_ENV === 'production') {
+    const parsedUrl = url.parse(document.location.href);
+    server = `${parsedUrl.protocol}//${parsedUrl.host}`;
+    console.log(server);
+} else {
+    server = "http://localhost:3001";
+}
+
 export function getData(filter, callback) {
 
     navigator.geolocation.getCurrentPosition(position => {
@@ -15,15 +24,6 @@ export function getData(filter, callback) {
 
         Object.assign(params, filter);
 
-        let server;
-        if (process.env.NODE_ENV === 'production') {
-            const parsedUrl = url.parse(document.location.href);
-            server = `${parsedUrl.protocol}//${parsedUrl.host}`;
-            console.log(server);
-        } else {
-            server = "http://localhost:3001";
-        }
-        
         const apiEndpoint = `${server}/api/explore?${qs.stringify(params)}`;
         request(apiEndpoint, (err, res, data) => {
             if (err) {
