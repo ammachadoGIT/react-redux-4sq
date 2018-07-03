@@ -1,5 +1,6 @@
 import request from "request";
 import qs from "querystring";
+import url from "url";
 
 export function getData(filter, callback) {
 
@@ -14,11 +15,16 @@ export function getData(filter, callback) {
 
         Object.assign(params, filter);
 
-        //TODO: fix server to work on both dev and prod environments
-        const url = `http://localhost:3001/api/explore?${qs.stringify(params)}`;
-        //url = `https://react-4sq.herokuapp.com/api/explore?${qs.stringify(params)}`
-
-        request(url, (err, res, data) => {
+        let server;
+        if (process.env.NODE_ENV === 'production') {
+            const parsedUrl = url.parse(document.location.href);
+            server = parsedUrl.protocol + parsedUrl.host;
+        } else {
+            server = "http://localhost:3001";
+        }
+        
+        const apiEndpoint = `${server}/api/explore?${qs.stringify(params)}`;
+        request(apiEndpoint, (err, res, data) => {
             if (err) {
                 callback(err);
             } else {
