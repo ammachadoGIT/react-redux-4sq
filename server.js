@@ -3,6 +3,7 @@ const express = require("express");
 const request = require("request");
 const qs = require("querystring");
 const dotenv = require("dotenv");
+var crypto = require('crypto');
 
 dotenv.config();
 const clientId = process.env.CLIENT_ID;
@@ -63,7 +64,8 @@ app.get("/api/explore", (req, res) => {
     const radius = req.query.radius;
     const section = req.query.section;
 
-    const cacheKey = ll + radius + section;
+    let cacheKey = ll + radius + section;
+    cacheKey = crypto.createHash('md5').update(cacheKey).digest('hex');
 
     memjsClient
         .get(cacheKey)
