@@ -4,10 +4,18 @@
     box-shadow: var(--box-shadow);
 }
 
+.panel-heading {
+    text-align: center;
+}
+
 .panel-heading a {
     color: white;
 }
 
 .panel-heading span {
     font-size: 1.5em;
+}
+
+.panel-venue .panel-footer {
+    text-align: center;
 }
