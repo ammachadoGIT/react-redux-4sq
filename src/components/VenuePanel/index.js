@@ -37,9 +37,6 @@ export default class VenuePanel extends Component {
                         <VenueAddress location={venue.location} />
                     </Panel.Body>
                     <Panel.Footer>
-
-                        
-
                         {
                             googleMapsLink ?
                                 <a href={googleMapsLink} target="_blank">
@@ -58,15 +55,16 @@ class VenueAddress extends Component {
     render() {
         return (
             <div>
-                <p>Address: {
+                <div><b>Address: </b>
+                 {
                     this.props.location.address || "N/A"
-                }</p>
-                <p>{
+                }
+                {
                     this.props.location.city ?
-                        this.props.location.city + ", " + this.props.location.state :
+                        `, ${this.props.location.city}` :
                         ""
-                }</p>
-                <p>Distance: {this.props.location.distance} m</p>
+                }</div>
+                <p><b>Distance:</b> {this.props.location.distance} m</p>
             </div>
         )
     }
