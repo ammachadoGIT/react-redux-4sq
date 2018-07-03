@@ -16,11 +16,11 @@ export default class VenuePanel extends Component {
                 <Panel className="panel-venue panel-primary">
                     <Panel.Heading>
                         <Row>
-                            <Col xs="2">
+                            <Col xs={2}>
                                 <img src={category.icon && icon} alt={category.name} />
                             </Col>
 
-                            <Col md="10" className="venue-name">
+                            <Col md={10} className="venue-name">
                                 <span>
                                     <a href={linkToFoursquare} target="_blank">
                                         {venue.name}
